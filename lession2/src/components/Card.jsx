@@ -7,7 +7,7 @@ export const Card = () => {
     )
     return (
         <div>
-            Vinh Doan
+            Vinh Doan 11111111
         </div>
     
 
