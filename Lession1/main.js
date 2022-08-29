@@ -90,3 +90,31 @@ console.log(arr2)
 console.log(arr3)
 
 // => chỉ là shallow coppy ( coppy 1 tầng ) ko thể truy cập đc address
+
+
+
+// rest 
+function sum(...arr) {
+    console.log(arr)
+
+}
+
+
+sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) //
+
+
+// detructuring
+
+const user = {
+    name: 'Vinh Doan',
+    age: 20,
+}
+
+const {name, age} = user;
+console.log(name, age + ' Tuổi')
+
+
+const students = ['mra', 'mrb', 'mrc'];
+const [mra, mrb, mrc] = students;
+
+console.log(mra, mrb, mrc);
